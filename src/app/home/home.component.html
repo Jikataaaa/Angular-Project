@@ -1,1 +1,7 @@
-<p>home works!</p>
+<main><article *ngFor="let post of recentPosts" class="post">
+  <h2 class="heading">{{post.heading}}</h2>
+  <p class="description">
+    {{post.description}}
+  </p>
+</article></main>
+
