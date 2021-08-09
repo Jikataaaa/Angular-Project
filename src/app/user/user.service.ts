@@ -7,7 +7,7 @@ export class UserService {
 
   constructor() { }
 
-  get isLoged(){
-    return this.user;
+  get isLoged(): boolean{
+    return !!this.user;
   }
 }
