@@ -16,4 +16,10 @@ export class HeaderComponent {
     return this.userService.isLoged;
   }
 
+  logout(){
+    this.userService.logout().subscribe(() => {
+      this.router.navigate(['/']);
+    });
+  }
+
 }
