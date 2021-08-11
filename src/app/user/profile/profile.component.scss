@@ -1,0 +1,37 @@
+.profile-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 420px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.myPosts-counter{
+    text-align: center;
+    margin-top: 15px;
+}
+.info-p{
+font-size: 40px;
+text-decoration: underline 3px;
+}
+p{
+    margin: 10px 10px 10px 0px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    font-family:Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: black 0px 0px 7px 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    
+}
+.heading{
+    text-align: center;
+   margin: 0px;
+}

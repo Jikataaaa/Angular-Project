@@ -1,5 +1,6 @@
 export interface IPost{
     heading: string,
     description: string,
-    type: string
+    type: string,
+    author: string
 }

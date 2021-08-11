@@ -4,44 +4,44 @@
       "id": 1,
       "heading": "Messi is leaving Barcelona!",
       "description": "as sum lud",
-      "type": "player"
+      "type": "player",
+      "author": "admin"
     },
     {
       "id": 2,
       "heading": "Messi is leaving Barcelona!",
       "description": "as sum lud",
-      "type": "player"
+      "type": "player",
+      "author": "admin"
     },
     {
       "id": 4,
       "heading": "Messi is leaving Barcelona!",
       "description": "as sum lud",
-      "type": "player"
+      "type": "player",
+      "author": "admin"
     },
     {
       "id": 3,
       "heading": "Messi is leaving Barcelona!",
       "description": "as sum lud",
-      "type": "player"
+      "type": "player",
+      "author": "admin"
     },
     {
       "id": 6,
       "heading": "Messi is leaving Barcelona!",
       "description": "asdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffddasdd sds cv f d cvffdd",
-      "type": "player"
+      "type": "player",
+      "author": "admin"
     },
     {
       "id": 5,
       "heading": "Messi is leaving Barcelona!",
       "description": "as sum lud",
-      "type": "player"
+      "type": "player",
+      "author": "az"
     }
   ],
-  "user": [
-    {
-      "username": "az",
-      "password": "123",
-      "id": 1
-    }
-  ]
+  "user": []
 }

@@ -1,0 +1,11 @@
+<div class="profile-info-wrapper">
+  <p class="info-p">Profile Info:</p>
+  <p>Username: {{ user.username }}</p>
+  <div class="myPosts-wrapper"><div class="myPosts-counter">My posts: </div>
+    <article *ngFor="let post of posts" class="post">
+      <h2 class="heading">{{post.heading}}</h2>
+      <p class="description">{{ post.description}}</p>
+    </article>
+    <div *ngIf="!posts">There are not any posts written by you.</div>
+  </div>
+</div>
