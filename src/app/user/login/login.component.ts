@@ -14,19 +14,14 @@ export class LoginComponent{
   constructor(private userService: UserService, private router: Router, private ActivateRoute: ActivatedRoute) { }
 
   login(form: NgForm): void{
-    console.log("it work");
    if (form.invalid) { return; }
-    console.log("it wo2rk");
     const { username, password } = form.value;
     this.userService.login({ username, password }).subscribe({
       next: () => {
         const redirectUrl =  '/';
-        //this.ActivateRoute.snapshot.queryParams.redirectUrl ||
+        this.ActivateRoute.snapshot.queryParams.redirectUrl || '/';
         this.router.navigate([redirectUrl]);
       },
-      error: (err) => {
-        console.log(err);
-      }
     });
   }
 

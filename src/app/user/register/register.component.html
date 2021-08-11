@@ -1,1 +1,60 @@
-<p>register works!</p>
+<form #form="ngForm" action="" method="post" (ngSubmit)="register(form)">
+  <div class="inputs-wrapper">
+    <div class="label-wrapper">
+      <label for="username">Username:</label>
+      <input
+        class="input-text"
+        #usernameInput="ngModel"
+        ngModel
+        type="text"
+        name="username"
+        required
+      />
+      <ng-container *ngIf="usernameInput.touched">
+        <p *ngIf="usernameInput.errors?.required" class="error-message">
+          Write your username, please.
+        </p>
+      </ng-container>
+    </div>
+
+    <div class="label-wrapper">
+      <label for="password">Password:</label>
+      <input
+        class="input-text"
+        #passwordInput="ngModel"
+        ngModel
+        type="password"
+        name="password"
+        required
+      />
+      <ng-container *ngIf="passwordInput.touched">
+        <p *ngIf="passwordInput.errors?.required" class="error-message">
+          Write your password, please.
+        </p>
+      </ng-container>
+    </div>
+
+    <div class="label-wrapper">
+      <label for="repeatPassword">Repeat Password:</label>
+      <input
+        class="input-text"
+        #repeatPasswordInput="ngModel"
+        ngModel
+        type="password"
+        name="repeatPass"
+        required
+      />
+      <ng-container *ngIf="repeatPasswordInput.touched">
+        <p *ngIf="repeatPasswordInput.errors?.required" class="error-message">
+          Repeat your password, please.
+        </p>
+      </ng-container>
+      <ng-container
+        ><p class="error-message" *ngIf="EqualPasswords == 'false'">
+          Passwords do not match!
+        </p></ng-container
+      >
+    </div>
+    <div><input class="button" type="submit" value="Register" /></div>
+  </div>
+</form>

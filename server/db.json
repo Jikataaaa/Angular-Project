@@ -37,5 +37,11 @@
       "type": "player"
     }
   ],
-  "userLogin": []
+  "user": [
+    {
+      "username": "az",
+      "password": "123",
+      "id": 1
+    }
+  ]
 }
