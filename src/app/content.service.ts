@@ -10,4 +10,7 @@ export class ContentService {
   loadAllPosts() {
     return this.http.get<IPost[]>('http://localhost:3000/posts');
   }
+  createPost(heading: string, description: string, type: string, author: string){
+    return this.http.post<IPost>('http://localhost:3000/posts', {heading, description, type, author});
+  }
 }

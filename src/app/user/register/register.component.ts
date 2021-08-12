@@ -20,7 +20,6 @@ export class RegisterComponent{
     }
     const {username, password, repeatPass} = form.value;
     if(password != repeatPass){
-      console.log('asd');
       this.EqualPasswords = "false";
       return;
     }

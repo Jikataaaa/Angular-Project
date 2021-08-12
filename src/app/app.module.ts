@@ -11,6 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { SharedModule } from './shared/shared.module';
 import { UserModule } from './user/user.module';
+import { NewPostComponent } from './new-post/new-post.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -18,6 +20,7 @@ import { UserModule } from './user/user.module';
     AppComponent,
     HomeComponent,
     NotFoundComponent,
+    NewPostComponent,
 
   ],
   imports: [
@@ -26,7 +29,8 @@ import { UserModule } from './user/user.module';
     HttpClientModule,
     AppRoutingModule,
     SharedModule,
-    UserModule
+    UserModule,
+    FormsModule
   ],
   providers: [ContentService],
   bootstrap: [AppComponent]

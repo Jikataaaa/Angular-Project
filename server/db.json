@@ -41,6 +41,13 @@
       "description": "as sum lud",
       "type": "player",
       "author": "az"
+    },
+    {
+      "heading": "Messi moved to PSG!",
+      "description": "He is flying to Paris now.",
+      "type": "player",
+      "author": "az",
+      "id": 7
     }
   ],
   "user": []
