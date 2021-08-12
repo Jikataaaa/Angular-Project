@@ -9,12 +9,12 @@ import { IPost } from '../shared/interfaces/post';
 })
 export class HomeComponent {
 
-  constructor(private ContentService: ContentService) { this.loadRecentPosts() }
+  constructor(private ContentService: ContentService) { this.loadPosts() }
 
-   recentPosts: IPost[] | undefined;
+   posts: IPost[] | undefined;
 
-  loadRecentPosts(){
-    this.ContentService.loadAllPosts().subscribe(posts => this.recentPosts = posts);
+  loadPosts(){
+    this.ContentService.loadAllPosts().subscribe(posts => this.posts = posts);
   }
 
 

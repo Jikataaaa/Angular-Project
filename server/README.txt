@@ -1,0 +1,1 @@
+Open terminal in this directory and write json-server --watch db.json to start the server.

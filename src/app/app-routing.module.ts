@@ -4,6 +4,8 @@ import { AuthActivate } from './core/guards/authantication.activate';
 import { HomeComponent } from './home/home.component';
 import { NewPostComponent } from './new-post/new-post.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { PlayerPostComponent } from './player-post/player-post.component';
+import { TeamPostComponent } from './team-post/team-post.component';
 import { LoginComponent } from './user/login/login.component';
 import { ProfileComponent } from './user/profile/profile.component';
 import { RegisterComponent } from './user/register/register.component';
@@ -17,6 +19,14 @@ const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent
+  },
+  {
+    path: 'player-posts',
+    component: PlayerPostComponent
+  },
+  {
+    path: 'team-posts',
+    component: TeamPostComponent
   },
   {
     path: 'login',

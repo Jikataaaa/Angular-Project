@@ -13,6 +13,8 @@ import { SharedModule } from './shared/shared.module';
 import { UserModule } from './user/user.module';
 import { NewPostComponent } from './new-post/new-post.component';
 import { FormsModule } from '@angular/forms';
+import { PlayerPostComponent } from './player-post/player-post.component';
+import { TeamPostComponent } from './team-post/team-post.component';
 
 
 @NgModule({
@@ -21,6 +23,8 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     NotFoundComponent,
     NewPostComponent,
+    PlayerPostComponent,
+    TeamPostComponent,
 
   ],
   imports: [

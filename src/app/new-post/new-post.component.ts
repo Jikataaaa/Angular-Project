@@ -20,10 +20,6 @@ export class NewPostComponent {
     const{heading, description, type} = form.value;
     const user = this.userService.getProfileData();
     const username = user.username;
-    console.log(heading);
-    console.log(description);
-    console.log(type);
-    console.log(username);
   
     this.contentService.createPost(heading, description, type, username).subscribe({
       next: () => {
