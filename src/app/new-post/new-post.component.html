@@ -15,6 +15,11 @@
         type="text"
       />
     </div>
+    <ng-container *ngIf="headingInput.touched">
+      <p *ngIf="headingInput.errors?.required" class="error-message">
+        The heading is required!
+      </p>
+    </ng-container>
     <div class="label-wrapper">
       <label for="description">Description:</label>
       <textarea
@@ -24,12 +29,18 @@
         name="description"
         cols="45"
         rows="15"
+        required
       ></textarea>
     </div>
-
+    <ng-container *ngIf="descriptionInput.touched">
+      <p *ngIf="descriptionInput.errors?.required" class="error-message">
+        The description is required!
+      </p>
+    </ng-container>
     <div class="label-wrapper">
       <label for="type">Type:</label>
       <select
+      required
         #typeInput="ngModel"
         ngModel
         class="input-text"
@@ -40,6 +51,11 @@
         <option value="team">Team</option>
       </select>
     </div>
+    <ng-container *ngIf="typeInput.touched">
+      <p *ngIf="typeInput.errors?.required" class="error-message">
+        The type of the post is required!
+      </p>
+    </ng-container>
 
     <div><input class="button" type="submit" value="Post" /></div>
   </div>

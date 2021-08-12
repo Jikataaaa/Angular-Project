@@ -55,7 +55,20 @@
       "type": "team",
       "author": "test",
       "id": 8
+    },
+    {
+      "heading": "PFC Levski Sofia lost third game in a row!",
+      "description": "asd",
+      "type": "team",
+      "author": "az",
+      "id": 9
     }
   ],
-  "user": []
+  "user": [
+    {
+      "username": "az",
+      "password": "123",
+      "id": 1
+    }
+  ]
 }
